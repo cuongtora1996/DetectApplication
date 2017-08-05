@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DetectApplication</string>
+    <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+    <string name="subscription_key">78006d7195774841ad5de6b9f13bd337</string>
+</resources>
