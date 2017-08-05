@@ -285,11 +285,11 @@ public class DetectService extends Service {
                 }
 
                 Log.d(TAG,"Có "+stranger+" người lạ");
-                if(stranger!=count){
-                    if(stranger!=0) {
-                        msgBody += " và "+stranger+ " người lạ.";
-                    }
-
+                if(stranger==count){
+                    msgBody += " lạ.";
+                }
+                else if(stranger!=0) {
+                    msgBody += " và "+stranger+ " người lạ.";
                 }
                 else
                     msgBody+= ".";

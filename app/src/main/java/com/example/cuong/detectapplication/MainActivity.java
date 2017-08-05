@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements ServiceCallbacks 
 
 
             }
-          //  finish();
+            finish();
         }
         /*String ExternalStorageDirectoryPath = Environment
                 .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getAbsolutePath();
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements ServiceCallbacks 
                         isStartService= true;
 
                     }
-                   // finish();
+                    finish();
                     // permission was granted, yay! Do the
                     // contacts-related task you need to do.
                 } else {
